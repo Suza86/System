@@ -1,0 +1,27 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h1>Person</h1>
+  </div>
+  <div class="panel-body">
+    <table class="table table-striped table-bordered">
+      <thead>
+        <tr>
+          <th>CARD NUMBER</th>
+          <th>PERSON NAME</th>
+          <th>PERSON SURNAME</th>
+          <th>PERSON ADDRESS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{person.cardNumber}}</td>
+          <td>{{person.personName}}</td>
+          <td>{{person.personSurname}}</td>
+          <td>{{person.personAddress}}</td>
+          <td><button (click)="deletePerson(person.id)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
