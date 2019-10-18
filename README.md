@@ -1,3 +1,16 @@
+# INTRODUCTION
++Spring Boot project from spring Initializer with required dependencies.
++Created Rest Controller, Service, repository and model for H2.
++Spring boot application is running on port 8080. Package (com.infosistem.infosistem.InfosistemApplication)
++Swagger UI - http://localhost:8080/swagger-ui.html#/ . 
+Using Swagger we can see our new created rest-controllers from our application, 
+and we can manipulate with data and verify them in the H2 database using the H2 console.
++Connect to H2 console using link http://localhost:8080/h2 (user/pass is set to application.properties)
++After saving data we can see API response http://localhost:8080/api/person
++Angular InfosistemUI - http://localhost:4200/ is in the main project with connection on api/logic and GUI (bootstrap interface).
+
+
+
 # InfosistemUI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.10.
